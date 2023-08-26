@@ -5,7 +5,7 @@ using namespace std;
 class Moneda
 {
 private:
-
+	string Nombre;
 	float PosicionX;
 	float PosicionY;
 	int DireccionY;
@@ -15,9 +15,10 @@ private:
 
 public:
 
-	string Nombre;
+	Moneda();
 
-	Moneda(string _Visibilidad);
+	void setNombre(string _nombre) { Nombre = _nombre; }
+	string getNombre() { return Nombre; }
 
 	void setPosicionX(float _posicionX) { PosicionX = _posicionX; }
 	int getPosicionX() { return PosicionX; }

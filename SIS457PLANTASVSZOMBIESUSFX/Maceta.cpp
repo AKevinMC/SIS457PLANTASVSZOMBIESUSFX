@@ -6,6 +6,8 @@ Maceta::Maceta()
 	 PosicionY = -1;
 	 DireccionY = -1;
 	 ocupada = false;
+	 Alto = 5;
+	 Ancho = 3;
 }
 
 bool Maceta::EstaOcupada()

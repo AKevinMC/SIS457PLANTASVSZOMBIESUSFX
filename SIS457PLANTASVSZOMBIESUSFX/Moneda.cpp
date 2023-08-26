@@ -1,6 +1,6 @@
 #include "Moneda.h"
 
-Moneda::Moneda(string _Visibilidad)
+Moneda::Moneda()
 {
 	PosicionX = 60;
 	PosicionY = 60;
