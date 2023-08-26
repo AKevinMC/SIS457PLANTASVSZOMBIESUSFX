@@ -127,7 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Escenario.cpp" />
+    <ClCompile Include="Maceta.cpp" />
+    <ClCompile Include="Moneda.cpp" />
+    <ClCompile Include="Pala.cpp" />
+    <ClCompile Include="Planta.cpp" />
+    <ClCompile Include="Podadora.cpp" />
     <ClCompile Include="principal.cpp" />
+    <ClCompile Include="Proyectil.cpp" />
+    <ClCompile Include="Puntuacion.cpp" />
+    <ClCompile Include="Sol.cpp" />
+    <ClCompile Include="Zombie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Escenario.h" />
+    <ClInclude Include="Maceta.h" />
+    <ClInclude Include="Moneda.h" />
+    <ClInclude Include="Pala.h" />
+    <ClInclude Include="Planta.h" />
+    <ClInclude Include="Podadora.h" />
+    <ClInclude Include="Proyectil.h" />
+    <ClInclude Include="Puntuacion.h" />
+    <ClInclude Include="Sol.h" />
+    <ClInclude Include="Zombie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
