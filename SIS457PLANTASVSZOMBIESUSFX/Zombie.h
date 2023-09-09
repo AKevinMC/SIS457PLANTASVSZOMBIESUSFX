@@ -21,7 +21,7 @@ protected:
 	int DireccionY;
 	int Velocidad;
 
-public:
+public:	
 	//Contructores
 	Zombie();
 
@@ -54,8 +54,7 @@ public:
 
 	//Metodos propios
 	void moverse();
-
 	void atacar();
-	void morir();
+	void morir();	
 	void morder();
 };

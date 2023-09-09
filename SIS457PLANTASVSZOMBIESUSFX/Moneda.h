@@ -8,7 +8,7 @@ private:
 	string Nombre;
 	float PosicionX;
 	float PosicionY;
-	int DireccionY;
+	float DireccionY;
 	int Forma;
 	float Valor;
 	string Visibilidad;
@@ -21,13 +21,13 @@ public:
 	string getNombre() { return Nombre; }
 
 	void setPosicionX(float _posicionX) { PosicionX = _posicionX; }
-	int getPosicionX() { return PosicionX; }
+	float getPosicionX() { return PosicionX; }
 
 	void setPosicionY(float _posicionY) { PosicionX = _posicionY; }
-	int getPosicionY() { return PosicionY; }
+	float getPosicionY() { return PosicionY; }
 
 	void setDireccionY(float _direccionY) { DireccionY = _direccionY; }
-	int getDireccionY() { return DireccionY; }
+	float getDireccionY() { return DireccionY; }
 
 	void setForma(int _forma) { Forma = _forma; }
 	int getForma() { return Forma; }

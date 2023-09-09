@@ -136,8 +136,12 @@
     <ClCompile Include="principal.cpp" />
     <ClCompile Include="Proyectil.cpp" />
     <ClCompile Include="Puntuacion.cpp" />
+    <ClCompile Include="SaltadorPertiga.cpp" />
     <ClCompile Include="Sol.cpp" />
     <ClCompile Include="Zombie.cpp" />
+    <ClCompile Include="ZombieCaracono.cpp" />
+    <ClCompile Include="ZombieCaracubo.cpp" />
+    <ClCompile Include="ZombieLector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Escenario.h" />
@@ -148,8 +152,12 @@
     <ClInclude Include="Podadora.h" />
     <ClInclude Include="Proyectil.h" />
     <ClInclude Include="Puntuacion.h" />
+    <ClInclude Include="SaltadorPertiga.h" />
     <ClInclude Include="Sol.h" />
     <ClInclude Include="Zombie.h" />
+    <ClInclude Include="ZombieCaracono.h" />
+    <ClInclude Include="ZombieCaracubo.h" />
+    <ClInclude Include="ZombieLector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
